@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Demand Forecasting Dashboard", layout="wide")
 
 # Load model
-model = joblib.load("C:/Users/sumit_zhvqwxt/OneDrive/Desktop/df_project/models/xgboost_model.pkl")
-
+model =joblib.load("models/xgboost_model.pkl")
 # Title
 st.title("📊 Demand Forecasting Dashboard")
 st.markdown("### Predict and analyze retail sales using Machine Learning")
